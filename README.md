@@ -18,7 +18,7 @@
 - The jypter note book explains the relation ship between different variables and summarizes the keysteps required for model building
 
 ## Conclusions
-- Features which impacts the sales price most are listed below
+Features which impacts the sales price most are listed below
 - GrLivArea: Above grade (ground) living area square feet
 - OverallQual: Rates the overall material and finish of the house.
 - Neighborhood_Crawfor: Physical locations within Ames city limits. 
@@ -26,6 +26,9 @@
 - MSZoning: Identifies the general zoning classification of the sale (Type: FV)
 - OverallCond: Rates the overall condition of the house
 
+Features which impacts the sales price negatively are listed below
+- PropertyAge: Age of the property at the time of seeling
+- HeatingQC_Fa: Heating quality and condition (when its fair).
 
 ## Technologies Used
 - Python 3.2.1, Panda, Seaborn, Matplot lib, sklearn & statsmodel
